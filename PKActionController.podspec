@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PKActionController"
-  spec.version      = "0.0.1"
-  spec.summary      = "An alert controller that displays an alert message with attributed style to the user with custom configuration."
+  spec.version      = "1.0"
+  spec.summary      = "An alert controller that displays an alert message."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -37,8 +37,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  #spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = "MIT (Praveen Kumar)"
+  spec.license      = { :type => "MIT", :file => "PKActionController/LICENSE.md" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -54,7 +54,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Praveen Kumar" => "composetopraveen@gmail.com" }
   # Or just: spec.author    = "Praveen Kumar"
   spec.authors            = { "Praveen Kumar" => "composetopraveen@gmail.com" }
-  spec.social_media_url   = "https://twitter.com/Praveen Kumar"
+  spec.social_media_url   = "https://twitter.com/praveen_tech"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -67,6 +67,8 @@ Pod::Spec.new do |spec|
 
   #spec.platform     = :tvos
   #spec.platform     = :tvos, "10.0"
+
+  spec.swift_version = '4.0'
 
   #  When using multiple platforms
   spec.ios.deployment_target = "10.0"
@@ -92,7 +94,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "PKActionController/Shared/*"
+  spec.source_files  = "Shared/*"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

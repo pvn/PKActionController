@@ -16,8 +16,8 @@
 		4ECC252123071EF000D85C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC252023071EF000D85C36 /* ViewController.swift */; };
 		4ECC252423071EF000D85C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC252223071EF000D85C36 /* Main.storyboard */; };
 		4ECC252623071EF100D85C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC252523071EF100D85C36 /* Assets.xcassets */; };
-		4ECC252D2307210A00D85C36 /* PKAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC252C2307210A00D85C36 /* PKAlertController.swift */; };
-		4ECC252E2307247900D85C36 /* PKAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC252C2307210A00D85C36 /* PKAlertController.swift */; };
+		4ECC252D2307210A00D85C36 /* PKAlertActionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC252C2307210A00D85C36 /* PKAlertActionController.swift */; };
+		4ECC252E2307247900D85C36 /* PKAlertActionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC252C2307210A00D85C36 /* PKAlertActionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +34,7 @@
 		4ECC252323071EF000D85C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4ECC252523071EF100D85C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ECC252723071EF100D85C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4ECC252C2307210A00D85C36 /* PKAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKAlertController.swift; sourceTree = "<group>"; };
+		4ECC252C2307210A00D85C36 /* PKAlertActionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKAlertActionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 		4ECC252B2307202D00D85C36 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				4ECC252C2307210A00D85C36 /* PKAlertController.swift */,
+				4ECC252C2307210A00D85C36 /* PKAlertActionController.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 			files = (
 				4ECC250923071E3500D85C36 /* ViewController.swift in Sources */,
 				4ECC250723071E3500D85C36 /* AppDelegate.swift in Sources */,
-				4ECC252D2307210A00D85C36 /* PKAlertController.swift in Sources */,
+				4ECC252D2307210A00D85C36 /* PKAlertActionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +220,7 @@
 			files = (
 				4ECC252123071EF000D85C36 /* ViewController.swift in Sources */,
 				4ECC251F23071EF000D85C36 /* AppDelegate.swift in Sources */,
-				4ECC252E2307247900D85C36 /* PKAlertController.swift in Sources */,
+				4ECC252E2307247900D85C36 /* PKAlertActionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pkactioncontroller.PKActionController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -403,7 +403,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pkactioncontroller.PKActionController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
